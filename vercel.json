@@ -1,12 +1,1 @@
-{
-  "functions": {
-    "app/api/generate/route.ts": {
-      "runtime": "nodejs18.x",
-      "maxDuration": 30
-    }
-  },
-  "buildCommand": "npm run build",
-  "devCommand": "npm run dev",
-  "installCommand": "npm install",
-  "framework": "nextjs"
-}
+{}
