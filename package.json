@@ -1,7 +1,7 @@
 {
   "name": "ojtest",
   "version": "1.0.0",
-  "description": "基于testlib的在线测试数据生成工具",
+  "description": "基于testlib的在线测试数据生成工具 - Online Testlib Generator",
   "private": true,
   "scripts": {
     "dev": "next dev",

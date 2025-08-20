@@ -1,51 +1,18 @@
-# 使用指南
+# OJtest 使用指南
 
-## 快速开始
+## 概述
 
-### 1. 本地运行
-
-```bash
-# 进入项目目录
-cd testlib-generator
-
-# 安装依赖
-npm install
-
-# 启动开发服务器
-npm run dev
-
-# 打开浏览器访问 http://localhost:3000
-```
-
-### 2. 部署到Vercel
-
-#### 方法一：使用部署脚本
-```bash
-# 运行自动部署脚本
-./scripts/deploy.sh
-```
-
-#### 方法二：手动部署
-```bash
-# 安装Vercel CLI
-npm install -g vercel
-
-# 登录Vercel
-vercel login
-
-# 部署项目
-vercel --prod
-```
+OJtest是一个基于testlib的在线测试数据生成工具，可以帮助算法竞赛选手和编程教育工作者快速生成高质量的测试数据。
 
 ## 功能说明
 
 ### 主要功能
-- ✅ 在线编写testlib生成器代码
-- ✅ 实时生成测试数据
-- ✅ 支持多种数据类型生成
-- ✅ 代码保存和加载
-- ✅ 测试数据下载
-- ✅ 响应式设计
+- 在线编写testlib生成器代码
+- 实时生成测试数据
+- 支持多种数据类型生成
+- 代码保存和加载
+- 测试数据下载
+- 响应式设计
 
 ### 支持的testlib函数
 - `rnd.next()` - 生成随机数
